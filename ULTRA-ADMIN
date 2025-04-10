@@ -1,4 +1,8 @@
-local Library = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local Library = loadstring(game:HttpGetAsync("https://github.com/ActualMasterOogway/Fluent-Renewed/releases/latest/download/Fluent.luau"))()
+local SaveManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/SaveManager.luau"))()
+local InterfaceManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/InterfaceManager.luau"))()
+
+-- Ã°Å¸Â  CrÃƒÂ©ation de la fenÃƒÂªtre principale
 local Window = Library:CreateWindow{
     Title = "MoonHub",
     SubTitle = "By X3NO ",
@@ -9,3 +13,4 @@ local Window = Library:CreateWindow{
     Acrylic = true,
     Theme = "DuoTone Dark Sea",
       MinimizeKey = Enum.KeyCode.RightControl
+}
